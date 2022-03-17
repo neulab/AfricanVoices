@@ -1,4 +1,5 @@
-#Aligning audiobooks
+## Aligning Audiobooks
+Audiobooks are large speech files that usually contain a lot of "sentences". To segment them into smaller chunks for use in TTS and ASR applications, follow the instructions below.
 
 ## Setup and installation
 1. Clone and install [CMU_Wilderness](https://github.com/festvox/datasets-CMU_Wilderness). You should stop at the make dependencies section.
@@ -47,10 +48,13 @@ for f in orig/*.wav; do sox $f -r 16k -b 16 ../wav/$f;done
 After this step, your audio files should be in wav folder inside cmu_wilderness.
 
 ## Alignment
-1. Check that your directory has the following structure:
+1. Check that your directory has the following required structure:
 ``` 
    cmu_wilderness/
     align.sh
+    bin/do_found
+    build
+        ...
     download/
         flist
     wav/
