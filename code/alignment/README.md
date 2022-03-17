@@ -27,12 +27,24 @@ The names of your audio and transcription files should be matching.
    * loan words
    
  The Bible has a lot of numbers which might be written in  digits. We created [number-dictionaries]() for the data from Open.Bible. If you make a number dictionary for your language,please consider contributing.
+2. If you have an idea of the utterance/sentence boundaries that you want/want to enforce, you should add an empty line to enforce that. Eg for the Bible, you can separate by verses or for other sentences by a period.
 
-2. Create txt.done.data files. Do 
+*Before*
+```
+Audiobooks are large speech files that usually contain a lot of "sentences". To segment them into smaller chunks for use in TTS and ASR applications, follow the instructions below.
+```
+*After*
+```
+Audiobooks are large speech files that usually contain a lot of "sentences".
+
+
+To segment them into smaller chunks for use in TTS and ASR applications, follow the instructions below.
+```
+3. Create txt.done.data files. Do 
 ```
 bin/do_found txt_to_ttd txt/*
 ```
-### Audio
+### Audio preprocessing
 1. Convert the audio to wav : If the audio is in mp3 format, use the following command:
 ```
 for i in [audio_path]*.mp3; do fname2=`basename $i .mp3`; ffmpeg -i $i $fname2.wav; done
