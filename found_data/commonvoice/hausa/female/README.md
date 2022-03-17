@@ -8,7 +8,7 @@ Age: Thirties
 ## Voices
 Sample rate: 32k
 
-Number of utterances: 
+Number of utterances: 1938
 
 Hours: 2.3
 
