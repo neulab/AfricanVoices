@@ -28,6 +28,7 @@ The names of your audio and transcription files should be matching.
    * loan words
    
  The Bible has a lot of numbers which might be written in  digits. We created [number-dictionaries]() for the data from Open.Bible. If you make a number dictionary for your language,please consider contributing.
+
 2. If you have an idea of the utterance/sentence boundaries that you want/want to enforce, you should add an empty line to enforce that. 
 Eg for the Bible, you can separate by verses or for other datasets by a period.
 
