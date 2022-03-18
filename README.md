@@ -1,6 +1,20 @@
 # AfricanVoices
 Hosts text-to-speech corpus and speech synthesizers for African languages.
 ## Languages
+| Language  | langcode | source         | hrs |
+|-----------|----------|----------------|-----|
+| Dholuo    | luo      | AfricanVoices  |     |
+|           |          | Open.Bible     |     |
+| Suba      | sxb      | AfricanVoices  |     |
+| Kikuyu    | kik      | Open.Bible     |     |
+| Lingala   | lin      | Open.Bible     |     |
+| Yoruba    | yor      | Open.Bible     |     |
+| Ibibio    | ibb      | LLSTI          |     |
+| Kiswahili |          |                |     |
+| Hausa     | hau      | CommonVoice -F |     |
+|           |          | CommonVoice -M |     |
+| Kiswahili | swa      |                |     |
+
 ## Data Sources
 ### Created
 
@@ -8,6 +22,8 @@ Hosts text-to-speech corpus and speech synthesizers for African languages.
 #### Open.Bible
 
 #### Mozilla CommonVoice
+
+###LLST
 
 ## Number dictionaries
 
