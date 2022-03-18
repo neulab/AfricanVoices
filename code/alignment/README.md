@@ -1,5 +1,6 @@
 ## Aligning Audiobooks
-Audiobooks are large speech files that usually contain a lot of "sentences". To segment them into smaller chunks for use in TTS and ASR applications, follow the instructions below.
+Audiobooks are large speech files that usually contain a lot of "sentences". 
+Speech recognition and synthesis training systems require well aligned, relatively short examples of audio and text [1]. To segment them into smaller chunks. Follow the instructions below to align your text:
 
 ## Setup and installation
 1. Clone and install [CMU_Wilderness](https://github.com/festvox/datasets-CMU_Wilderness). You should stop at the make dependencies section.
@@ -27,7 +28,8 @@ The names of your audio and transcription files should be matching.
    * loan words
    
  The Bible has a lot of numbers which might be written in  digits. We created [number-dictionaries]() for the data from Open.Bible. If you make a number dictionary for your language,please consider contributing.
-2. If you have an idea of the utterance/sentence boundaries that you want/want to enforce, you should add an empty line to enforce that. Eg for the Bible, you can separate by verses or for other sentences by a period.
+2. If you have an idea of the utterance/sentence boundaries that you want/want to enforce, you should add an empty line to enforce that. 
+Eg for the Bible, you can separate by verses or for other datasets by a period.
 
 *Before*
 ```
@@ -93,3 +95,8 @@ After this step, your audio files should be in wav folder inside cmu_wilderness.
 ## Post-processing
 1. You can order your alignments and pick the best n alignments.
 [TO DO]
+
+
+## References
+[1]: Alan W Black "CMU Wilderness Multilingual Speech Dataset" ICASSP 2019, Brighton, UK.
+
