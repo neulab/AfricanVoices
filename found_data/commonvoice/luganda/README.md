@@ -10,7 +10,7 @@ Sample rate: 32k
 
 Number of utterances: 2942
 
-Hours: 
+Hours: 4.52
 
 Format: mp3
 
