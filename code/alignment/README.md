@@ -14,6 +14,7 @@ MAT_025
 MAT_026
 ```
 The names of your audio and transcription files should be matching.
+
 6. Copy [align.sh](align.sh) to your `cmu_wilderness` directory.
 
 ## Preprocessing
