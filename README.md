@@ -1,6 +1,6 @@
 # AfricanVoices
 AfricanVoices is a project that aims to increase the research in speech synthesis for African languages by creating and collecting high quality speech datasets for African Languages. We also avail the synthesizers that we have built for others to use. 
-AfricanVoices is a collaborative project, where we welcome anyone (See the contribution section) to contribute in advancing this project.  
+AfricanVoices is a collaborative project, where we welcome anyone (see the contribution section) to contribute in advancing this project.  
 To learn more about the project, you can read the [AfricanVoices paper]().
 
 The project is currently in its early stages. We have worked on the following languages:
@@ -55,8 +55,14 @@ We have developed for building s speech synthesizer [here](https://github.com/ne
 
 ## Contributing
 
-
-
+We highly welcome contributions through issues or pull requests.
+Here are some contribution ideas:
+- Provide a dataset for a language; either you recorded yourself or from other sources(as long as the license allows).
+- Provide a synthesizer that you have trained.
+- Provide a number dictionary for a language.
+- Correct a mistake in the current number dictionaries or add alternatives. 
+- Help in improving the documentation or code
+- Evaluate output of a synthesizer.
 
 # References
 [1] E. Gauthier, L. Besacier, S. Voisin, M. Melese, and U. P.
