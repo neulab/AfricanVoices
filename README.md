@@ -21,7 +21,7 @@ The project is currently in its early stages. We have worked on the following la
 | Suba             | sxb      | Bible.is      |          11971 | 24.82 |
 | Suba             | sxb      | AfricanVoices |           1178 |   1.7 |
 | Luo              | luo      | AfricanVoices |           1516 |  1.79 |
-| English (Kenyan) | en-ke    | AfricanVoices |            596 | ~     |
+| English (Kenyan) | en-ke    | AfricanVoices |            593 | 0.74    |
 
 Find the data and synthesizers  [on the AfricanVoices website]().
 ## Data Sources
