@@ -32,7 +32,7 @@ project developed TTS datasets for localization of speech technology. We obtaine
 We selected a single speaker subset of the data for each language.
 
 ## Number dictionaries
-This is a resource we created to be used in normalizing numbers, an important step in both aligning and building TTS systems. Find it [here](number_dictionaries/README.md).
+This is a resource we created to be used in normalizing numbers, an important step in both aligning and building TTS systems. Find it [here](number_dictionaries).
 
 ## Contributing
 
@@ -41,7 +41,7 @@ This is a resource we created to be used in normalizing numbers, an important st
 ## Developing your own dataset
 
 ### Aligning audiobooks
-To align audiobooks/long audio files, follow the guidelines in the [Aligning AudioBooks](code/README.md) section.
+To align audiobooks/long audio files, follow the guidelines in the [Aligning AudioBooks](code/alignment/README.md) section.
 
 ### Recording
 There are guidelines in the [Creating Data](https://github.com/neulab/newlang-tech/tree/main/speech-synthesis#2-creating-data) section of NewLangTech.
