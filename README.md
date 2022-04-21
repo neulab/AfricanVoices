@@ -23,7 +23,8 @@ The project is currently in its early stages. We have worked on the following la
 | Luo              | luo      | AfricanVoices |           1516 |  1.79 |
 | English (Kenyan) | en-ke    | AfricanVoices |            593 | 0.74    |
 
-Find the data and synthesizers  [on the AfricanVoices website]().
+## AfricanVoices website
+Find more info and download data and synthesizers  from [the AfricanVoices website](https://www.africanvoices.tech/).
 ## Data Sources
 
 Besides creating the data, we also use available data from other sources so that we can have a wide coverage. We have used the following resources so far :
