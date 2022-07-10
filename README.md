@@ -52,7 +52,7 @@ There are guidelines in the [Creating Data](https://github.com/neulab/newlang-te
 
 
 ## Building a speech synthesizer
-We have developed for building s speech synthesizer [here](https://github.com/neulab/newlang-tech/tree/main/speech-synthesis#3-training-a-speech-synthesizer).
+We have developed for building a speech synthesizer [here](https://github.com/neulab/newlang-tech/tree/main/speech-synthesis#3-training-a-speech-synthesizer).
 
 ## Contributing
 
