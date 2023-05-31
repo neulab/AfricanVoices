@@ -1,7 +1,7 @@
 # AfricanVoices
 AfricanVoices is a project that aims to increase the research in speech synthesis for African languages by creating and collecting high quality speech datasets for African Languages. We also avail the synthesizers that we have built for others to use. 
 AfricanVoices is a collaborative project, where we welcome anyone (see the contribution section) to contribute in advancing this project.  
-To learn more about the project, you can read the [AfricanVoices paper]().
+To learn more about the project, you can read the [AfricanVoices paper](https://www.isca-speech.org/archive/interspeech_2022/ogayo22_interspeech.html).
 
 The project is currently in its early stages. We have worked on the following languages:
 
@@ -25,7 +25,8 @@ The project is currently in its early stages. We have worked on the following la
 
 ## AfricanVoices website
 Find more info and download data and synthesizers  from [the AfricanVoices website](https://www.africanvoices.tech/).
-## Data Sources
+
+## Data sources
 
 Besides creating the data, we also use available data from other sources so that we can have a wide coverage. We have used the following resources so far :
 
@@ -64,6 +65,24 @@ Here are some contribution ideas:
 - Correct a mistake in the current number dictionaries or add alternatives. 
 - Help in improving the documentation or code
 - Evaluate output of a synthesizer.
+
+## License
+
+The dataset created by AfricanVoices (Kenyan English, Suba and Luo) is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+### Usage for individual research and open source projects
+
+For individual research purposes and projects that are open source, you are free to use the dataset without any restrictions. Feel free to explore, analyze, and incorporate the data into your work, as long as you comply with the terms of the license.
+
+### Commercial use and licensing
+
+If you are interested in using the dataset for commercial purposes, please reach out to us to obtain a separate license. We are open to discussing licensing options that meet your specific needs. Contact us via aogayo&#64;andrew.cmu.edu to initiate the licensing process.
+
+### Third-Party datasets
+
+Please note that the datasets that we developed from other sources listed in [Data sources](#data-sources) are released under their original licenses. It is essential to refer to the original data sources and their respective licenses for proper attribution and compliance. We recommend reviewing the individual dataset files or documentation for details on the original sources and licenses.
+
+We encourage collaboration and innovation, and we believe that by working together, we can create amazing things. Thank you for your interest in our dataset, and we look forward to hearing about the exciting ways it contributes to your research and projects!
 
 # References
 [1] E. Gauthier, L. Besacier, S. Voisin, M. Melese, and U. P.
